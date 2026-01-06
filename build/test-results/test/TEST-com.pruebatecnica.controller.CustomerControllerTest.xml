@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pruebatecnica.controller.CustomerControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-06T06:40:46.894Z" hostname="nobara-pc" time="1.396">
+<testsuite name="com.pruebatecnica.controller.CustomerControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T08:41:01.116Z" hostname="nobara-pc" time="0.092">
   <properties/>
-  <testcase name="shouldCreateAndGetCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="1.396"/>
-  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-01:40:39.515 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.pruebatecnica.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-01:40:39.669 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.CustomerControllerTest
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
-
- :: Spring Boot ::                (v3.3.5)
-
-2026-01-06T01:40:40.449-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] c.p.controller.CustomerControllerTest    : Starting CustomerControllerTest using Java 21.0.9 with PID 6235 (started by yandry in /home/yandry/DEVELOPMENT/PRUEBATECNICA/PruebaTecnicaEnero2026)
-2026-01-06T01:40:40.452-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] c.p.controller.CustomerControllerTest    : The following 1 profile is active: "test"
-2026-01-06T01:40:41.689-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-06T01:40:41.785-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
-2026-01-06T01:40:42.723-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-01-06T01:40:42.811-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-01-06T01:40:42.876-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-01-06T01:40:43.357-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-06T01:40:43.428-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-06T01:40:43.755-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:pruebatecnica_test user=SA
-2026-01-06T01:40:43.758-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-06T01:40:43.800-05:00  WARN 6235 --- [prueba-tecnica] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-01-06T01:40:45.007-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-06T01:40:45.119-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-06T01:40:46.795-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-01-06T01:40:46.796-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-01-06T01:40:46.803-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
-2026-01-06T01:40:46.862-05:00  INFO 6235 --- [prueba-tecnica] [    Test worker] c.p.controller.CustomerControllerTest    : Started CustomerControllerTest in 6.916 seconds (process running for 8.716)
+  <testcase name="shouldListCustomers()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.013"/>
+  <testcase name="shouldCreateAndGetCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.026"/>
+  <testcase name="shouldPatchCustomerStatusAndDeleteCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.048"/>
+  <system-out><![CDATA[2026-01-06T03:41:01.108-05:00  INFO 8034 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-06T03:41:01.112-05:00  INFO 8034 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.CustomerControllerTest
 ]]></system-out>
-  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/yandry/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
