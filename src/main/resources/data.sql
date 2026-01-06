@@ -14,8 +14,8 @@ ON CONFLICT (cliente_id) DO NOTHING;
 
 INSERT INTO cuentas (id, numero_cuenta, tipo_cuenta, saldo_inicial, estado, cliente_id)
 VALUES
-  (1, 478758, 'AHORRO', 2000.00, true, 1),
-  (2, 225487, 'CORRIENTE', 100.00, true, 2)
+  (1, 47875899, 'AHORRO', 2000.00, true, 1),
+  (2, 22548799, 'CORRIENTE', 100.00, true, 2)
 ON CONFLICT (id) DO NOTHING;
 
 INSERT INTO movimientos (id, fecha, tipo_movimiento, valor, saldo, cuenta_id)
