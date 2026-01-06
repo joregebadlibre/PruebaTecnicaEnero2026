@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-01-05T23:38:06.552523547-05:00[America/Guayaquil]", comments = "Generator version: 7.6.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-01-06T11:08:39.509887134-05:00[America/Guayaquil]", comments = "Generator version: 7.6.0")
 @Validated
 @Tag(name = "Transactions", description = "the Transactions API")
 public interface TransactionsApi {

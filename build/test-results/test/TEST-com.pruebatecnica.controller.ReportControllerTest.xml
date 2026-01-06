@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pruebatecnica.controller.ReportControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-06T09:12:57.128Z" hostname="nobara-pc" time="0.666">
+<testsuite name="com.pruebatecnica.controller.ReportControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-06T16:11:36.839Z" hostname="nobara-pc" time="0.547">
   <properties/>
-  <testcase name="shouldGenerateReportWithPdfBase64()" classname="com.pruebatecnica.controller.ReportControllerTest" time="0.666"/>
-  <system-out><![CDATA[2026-01-06T04:12:57.121-05:00  INFO 9022 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.ReportControllerTest]: ReportControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-01-06T04:12:57.124-05:00  INFO 9022 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.ReportControllerTest
-2026-01-06T04:12:57.748-05:00  WARN 9022 --- [prueba-tecnica] [    Test worker] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Symbol
-2026-01-06T04:12:57.751-05:00  WARN 9022 --- [prueba-tecnica] [    Test worker] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font ZapfDingbats
+  <testcase name="shouldGenerateReportWithPdfBase64()" classname="com.pruebatecnica.controller.ReportControllerTest" time="0.547"/>
+  <system-out><![CDATA[2026-01-06T11:11:36.832-05:00  INFO 3407 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.ReportControllerTest]: ReportControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-06T11:11:36.835-05:00  INFO 3407 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.ReportControllerTest
+2026-01-06T11:11:37.336-05:00  WARN 3407 --- [prueba-tecnica] [    Test worker] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font Symbol
+2026-01-06T11:11:37.339-05:00  WARN 3407 --- [prueba-tecnica] [    Test worker] o.a.pdfbox.pdmodel.font.PDType1Font      : Using fallback font LiberationSans for base font ZapfDingbats
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
