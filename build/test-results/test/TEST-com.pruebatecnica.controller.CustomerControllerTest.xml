@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pruebatecnica.controller.CustomerControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T08:41:01.116Z" hostname="nobara-pc" time="0.092">
+<testsuite name="com.pruebatecnica.controller.CustomerControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T09:12:57.046Z" hostname="nobara-pc" time="0.072">
   <properties/>
-  <testcase name="shouldListCustomers()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.013"/>
-  <testcase name="shouldCreateAndGetCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.026"/>
-  <testcase name="shouldPatchCustomerStatusAndDeleteCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.048"/>
-  <system-out><![CDATA[2026-01-06T03:41:01.108-05:00  INFO 8034 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-01-06T03:41:01.112-05:00  INFO 8034 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.CustomerControllerTest
+  <testcase name="shouldListCustomers()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.014"/>
+  <testcase name="shouldCreateAndGetCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.025"/>
+  <testcase name="shouldPatchCustomerStatusAndDeleteCustomer()" classname="com.pruebatecnica.controller.CustomerControllerTest" time="0.03"/>
+  <system-out><![CDATA[2026-01-06T04:12:57.032-05:00  INFO 9022 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-06T04:12:57.039-05:00  INFO 9022 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.CustomerControllerTest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

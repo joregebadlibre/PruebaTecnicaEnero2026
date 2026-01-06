@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pruebatecnica.controller.TransactionControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T08:41:01.896Z" hostname="nobara-pc" time="0.234">
+<testsuite name="com.pruebatecnica.controller.TransactionControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T09:12:57.807Z" hostname="nobara-pc" time="0.173">
   <properties/>
-  <testcase name="shouldRejectDebitWhenInsufficientBalance()" classname="com.pruebatecnica.controller.TransactionControllerTest" time="0.054"/>
-  <testcase name="shouldCreateCreditThenDebitAndUpdateBalances()" classname="com.pruebatecnica.controller.TransactionControllerTest" time="0.101"/>
-  <testcase name="shouldRejectUpdateWhenNotLastTransactionOfAccount()" classname="com.pruebatecnica.controller.TransactionControllerTest" time="0.077"/>
-  <system-out><![CDATA[2026-01-06T03:41:01.884-05:00  INFO 8034 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.TransactionControllerTest]: TransactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-01-06T03:41:01.888-05:00  INFO 8034 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.TransactionControllerTest
+  <testcase name="shouldRejectDebitWhenInsufficientBalance()" classname="com.pruebatecnica.controller.TransactionControllerTest" time="0.033"/>
+  <testcase name="shouldCreateCreditThenDebitAndUpdateBalances()" classname="com.pruebatecnica.controller.TransactionControllerTest" time="0.069"/>
+  <testcase name="shouldRejectUpdateWhenNotLastTransactionOfAccount()" classname="com.pruebatecnica.controller.TransactionControllerTest" time="0.069"/>
+  <system-out><![CDATA[2026-01-06T04:12:57.798-05:00  INFO 9022 --- [prueba-tecnica] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.pruebatecnica.controller.TransactionControllerTest]: TransactionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-06T04:12:57.802-05:00  INFO 9022 --- [prueba-tecnica] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.pruebatecnica.PruebaTecnicaApplication for test class com.pruebatecnica.controller.TransactionControllerTest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
