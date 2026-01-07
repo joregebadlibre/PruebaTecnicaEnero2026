@@ -22,6 +22,13 @@ API REST construida con **Spring Boot** para la gestión de **Clientes**, **Cuen
 - `docker-compose.yml`: levanta Postgres + la API
 - `Dockerfile`: build multi-stage (Gradle + JRE)
 
+## Pruebas Unitarias
+
+- `src/test/java/com/pruebatecnica/controller/AccountControllerTest.java`
+- `src/test/java/com/pruebatecnica/controller/CustomerControllerTest.java`
+- `src/test/java/com/pruebatecnica/controller/ReportControllerTest.java`
+- `src/test/java/com/pruebatecnica/controller/TransactionControllerTest.java`
+
 ## Requisitos
 
 - Opción A (recomendada): **Docker** y **Docker Compose**
