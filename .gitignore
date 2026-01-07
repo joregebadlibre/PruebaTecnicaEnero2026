@@ -130,3 +130,4 @@ build/generated/openapi/src/main/java/com/pruebatecnica/openapi/api/AccountsApi.
 .gradle/9.0.0/executionHistory/executionHistory.lock
 .gradle/9.0.0/executionHistory/executionHistory.bin
 build/tmp/compileJava/previous-compilation-data.bin
+/build/
