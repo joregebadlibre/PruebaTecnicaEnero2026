@@ -34,7 +34,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-01-06T11:08:39.509887134-05:00[America/Guayaquil]", comments = "Generator version: 7.6.0")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-01-06T15:37:16.862324864-05:00[America/Guayaquil]", comments = "Generator version: 7.6.0")
 @Validated
 @Tag(name = "Customers", description = "the Customers API")
 public interface CustomersApi {
